@@ -8,6 +8,7 @@ The Pytorch implementation of "Location-aware Upsampling for Semantic Segmentati
 
 ### Build :
 ```bash
+cd LaU
 bash make.sh
 ```
 
