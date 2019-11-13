@@ -1,5 +1,5 @@
 # Location-aware-Upsampling-for-Semantic-Segmentation
-The Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU)
+Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU). Pre-trained models, training and testing codes will be released in the next few months.
 
 ### Dependencies :
 * **Python 3.5.6**
