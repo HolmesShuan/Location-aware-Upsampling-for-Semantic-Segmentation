@@ -6,7 +6,7 @@ The Pytorch implementation of "Location-aware Upsampling for Semantic Segmentati
 * **PyTorch 1.0.0**
 * **GCC 7.3.0**
 
-### Build
+### Build :
 ```bash
 bash make.sh
 ```
@@ -60,6 +60,6 @@ class DiffBiUpsampling(nn.Module):
         return y_offset, offsets_return
 ```
 
-### Acknowledgement
+### Acknowledgement :
 
 We would like to thank [Deformable-Convolution-V2-PyTorch](https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch) and [pytorch-deform-conv](https://github.com/oeway/pytorch-deform-conv) for sharing their codes!
