@@ -1,5 +1,5 @@
 # Location-aware-Upsampling-for-Semantic-Segmentation
-Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU). Pre-trained models, training and testing codes will be released in the next few months.
+Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU). Pre-trained models, training and testing codes will be released in the next few months. [[arXiv Link]](https://arxiv.org/abs/1911.05250)
 
 ### Dependencies :
 * **Python 3.5.6**
@@ -64,3 +64,15 @@ class DiffBiUpsampling(nn.Module):
 ### Acknowledgement :
 
 We would like to thank [Deformable-Convolution-V2-PyTorch](https://github.com/chengdazhi/Deformable-Convolution-V2-PyTorch) and [pytorch-deform-conv](https://github.com/oeway/pytorch-deform-conv) for sharing their codes!
+
+### Cite : 
+```bib
+@misc{he2019locationaware,
+    title={Location-aware Upsampling for Semantic Segmentation},
+    author={Xiangyu He and Zitao Mo and Qiang Chen and Anda Cheng and Peisong Wang and Jian Cheng},
+    year={2019},
+    eprint={1911.05250},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
