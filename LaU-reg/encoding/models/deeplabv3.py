@@ -133,7 +133,7 @@ class ASPP_Module(nn.Module):
 
 
 def get_deeplab(dataset='pascal_voc', backbone='resnet50', pretrained=False,
-                root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+                root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     # infer number of classes
     from ..datasets import datasets
     model = DeepLabV3(datasets[dataset.lower()].NUM_CLASS, backbone=backbone, root=root, **kwargs)
