@@ -79,7 +79,7 @@ class PSPHead(nn.Module):
         return self.conv6(offset_branch), offset_branch
 
 def get_psp(dataset='pascal_voc', backbone='resnet50', pretrained=False,
-            root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+            root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     acronyms = {
         'pascal_voc': 'voc',
         'pascal_aug': 'voc',
@@ -94,7 +94,7 @@ def get_psp(dataset='pascal_voc', backbone='resnet50', pretrained=False,
             get_model_file('psp_%s_%s'%(backbone, acronyms[dataset]), root=root)))
     return model
 
-def get_psp_resnet50_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_psp_resnet50_ade(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
