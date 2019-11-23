@@ -25,7 +25,7 @@ __all__ = ['BaseNet', 'MultiEvalModule']
 class BaseNet(nn.Module):
     def __init__(self, nclass, backbone, aux, se_loss, jpu=True, dilated=False, norm_layer=None,
                  base_size=520, crop_size=480, mean=[.485, .456, .406],
-                 std=[.229, .224, .225], root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+                 std=[.229, .224, .225], root='/mnt/xfs1/home/shuan/tools/encoding/models', **kwargs):
         super(BaseNet, self).__init__()
         self.nclass = nclass
         self.aux = aux
