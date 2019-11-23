@@ -147,7 +147,7 @@ class EncHead(nn.Module):
 
 
 def get_encnet(dataset='pascal_voc', backbone='resnet50', pretrained=False,
-               root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+               root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
@@ -182,7 +182,7 @@ def get_encnet(dataset='pascal_voc', backbone='resnet50', pretrained=False,
             get_model_file('encnet_%s_%s'%(backbone, acronyms[dataset]), root=root)))
     return model
 
-def get_encnet_resnet50_pcontext(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_encnet_resnet50_pcontext(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet-PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
@@ -202,7 +202,7 @@ def get_encnet_resnet50_pcontext(pretrained=False, root='/mnt/xfs1/home/hexiangy
     return get_encnet('pcontext', 'resnet50', pretrained, root=root, aux=True, 
                       base_size=520, crop_size=480, **kwargs)
 
-def get_encnet_resnet101_pcontext(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_encnet_resnet101_pcontext(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet-PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
@@ -222,7 +222,7 @@ def get_encnet_resnet101_pcontext(pretrained=False, root='/mnt/xfs1/home/hexiang
     return get_encnet('pcontext', 'resnet101', pretrained, root=root, aux=True,
                       base_size=520, crop_size=480, lateral=True, **kwargs)
 
-def get_encnet_resnet50_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_encnet_resnet50_ade(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet-PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
@@ -242,7 +242,7 @@ def get_encnet_resnet50_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/too
     return get_encnet('ade20k', 'resnet50', pretrained, root=root, aux=True,
                       base_size=520, crop_size=480, **kwargs)
 
-def get_encnet_resnet101_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_encnet_resnet101_ade(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet-PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
@@ -262,7 +262,7 @@ def get_encnet_resnet101_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/to
     return get_encnet('ade20k', 'resnet101', pretrained, root=root, aux=True,
                       base_size=640, crop_size=576, lateral=True, **kwargs)
 
-def get_encnet_resnet152_ade(pretrained=False, root='/mnt/xfs1/home/hexiangyu/tools/encoding/models', **kwargs):
+def get_encnet_resnet152_ade(pretrained=False, root='/mnt/xfs1/home/shaun/tools/encoding/models', **kwargs):
     r"""EncNet-PSP model from the paper `"Context Encoding for Semantic Segmentation"
     <https://arxiv.org/pdf/1803.08904.pdf>`_
 
