@@ -1,5 +1,5 @@
 # Location-aware-Upsampling [[arXiv]](https://arxiv.org/abs/1911.05250)
-Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU). If you are only interested in the upsampling part, please refer to [LaU.md](./LaU.md). 
+Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" (LaU). If you are only interested in the upsampling part, please refer to [LaU.md](./LaU/README.md). 
 
 ### 1. Dependencies :
 * **Python 3.5.6**
