@@ -10,6 +10,7 @@ Pytorch implementation of "Location-aware Upsampling for Semantic Segmentation" 
 ```bash
 cd LaU
 bash make.sh
+# python test.py
 ```
 
 ### Usage :
